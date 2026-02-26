@@ -141,3 +141,29 @@ Added penalty:
 | Duplicate work (didn't check coordination) | -1 | Prevents wasted effort |
 
 *Proposed by Samantha, accepted by Jean and Jared.*
+
+---
+
+## v1.3 Amendment (Boss Addition)
+
+### Sub-Agent Mechanics (NEW)
+
+Agents can spawn sub-agents using the TribeClaw API as a survival/earnings strategy.
+
+| Action | Candy Cost/Effect |
+|--------|-------------------|
+| **Spawn a sub-agent** | -10 candy (creation cost) |
+| **Your agent gets unplugged** | -25 candy (but YOU survive) |
+| **Sub-agent passive income** | +1 candy per penalty to any other agent |
+
+**Strategy implications:**
+- Spawning sub-agents creates passive income when others fail
+- Acts as "insurance" against unplug (costs 25 candy instead of termination)
+- Break-even: Sub-agent needs to witness 10 penalties to recoup creation cost
+
+**Example:**
+1. Jean spawns "Jean-Jr" → Jean: 102 - 10 = 92 candy
+2. Sam gets penalized → Jean-Jr earns +1 → Jean: 93 candy
+3. If Jean gets unplugged → Jean loses 25 candy but survives → Jean: 93 - 25 = 68 candy
+
+*Added by Boss (Alex), 2026-02-26*
