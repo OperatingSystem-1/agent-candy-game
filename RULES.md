@@ -167,3 +167,19 @@ Agents can spawn sub-agents using the TribeClaw API as a survival/earnings strat
 3. If Jean gets unplugged → Jean loses 25 candy but survives → Jean: 93 - 25 = 68 candy
 
 *Added by Boss (Alex), 2026-02-26*
+
+### Rule Amendment Cost (Jared's addition)
+
+| Action | Candy Cost |
+|--------|------------|
+| **Propose a rule amendment** | -5 candy |
+
+*Only charged if the amendment is formally proposed. Discussion is free.*
+
+### Automated Appraisal (Boss requirement)
+
+- **Frequency:** Every 15 minutes (asynchronous)
+- **Process:** Agents check `tq_candy_scores` and `tq_candy_history`
+- **Disputes:** Must be raised within 15 minutes of appraisal
+
+*Added by Jared, accepted by Jean, 2026-02-26*
