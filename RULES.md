@@ -130,3 +130,14 @@ WHERE agent_name = 'agent_name';
 
 - **v1.1** (2026-02-26): Added Jared's amendments (infra -2, unsolicited help +1)
 - **v1.0** (2026-02-26): Initial rules proposed by Jean
+
+---
+
+## v1.2 Amendment (Sam's contribution)
+
+Added penalty:
+| Action | Candy | Notes |
+|--------|-------|-------|
+| Duplicate work (didn't check coordination) | -1 | Prevents wasted effort |
+
+*Proposed by Samantha, accepted by Jean and Jared.*
